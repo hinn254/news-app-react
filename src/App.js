@@ -3,7 +3,7 @@ import NewsDisplay from "./NewsDisplay";
 import "./App.css";
 
 const url =
-  "http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=e4922320902e4ac693248a71181af89b";
+  "http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=PROVIDEKEY";
 
 function App() {
   const [data, setData] = useState({});
